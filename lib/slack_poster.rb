@@ -35,8 +35,6 @@ class SlackPoster
 
   def slack_options
     {
-     icon_emoji: @mood_hash[:icon_emoji],
-     username: @mood_hash[:username],
      channel: @team_channel
    }
   end
